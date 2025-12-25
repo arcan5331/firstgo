@@ -1,5 +1,11 @@
 package mylib
 
+import "fmt"
+
 func Version() string {
-	return "v0.0.1"
+	return "v1.0.0"
+}
+
+func SayHello() {
+	fmt.Println("Hello World")
 }
